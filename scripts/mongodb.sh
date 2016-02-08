@@ -3,7 +3,7 @@
 echo ">>> Installing MongoDB"
 
 # Get key and add to sources
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 
 # Make MongoDB connectable from outside world without SSH tunnel
 if [ $2 == "3.0" ]; then
